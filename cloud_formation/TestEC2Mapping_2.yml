@@ -5,8 +5,10 @@ Mappings:
       prod: t2.micro
   AMIMap:
     us-east-1:
-      dev: ami-02396cdd13e9a1257
-      prod: ami-02396cdd13e9a1257
+      dev: ami-08b5b3a93ed654d19 #Update 20250310
+      prod: ami-08b5b3a93ed654d19 #Update 20250310
+      # dev: ami-02396cdd13e9a1257
+      # prod: ami-02396cdd13e9a1257
 Resources:
   MyInstance:
     Type: AWS::EC2::Instance
